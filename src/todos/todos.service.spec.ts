@@ -80,6 +80,7 @@ describe('TodosService', () => {
       expect(createTodo).toEqual(todo);
       expect(createTodoSpy).toBeCalledTimes(1);
       expect(createTodoSpy).toBeCalledWith({
+        id: expect.any(String),
         title: 'test',
         completed: false,
         order: 1,

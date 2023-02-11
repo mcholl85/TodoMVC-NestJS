@@ -14,7 +14,7 @@ import { HttpCode } from '@nestjs/common/decorators';
 import { UseFilters } from '@nestjs/common/decorators/core/exception-filters.decorator';
 import { Request } from 'express';
 import { HttpExceptionFilter } from '../utils/http-exception.filter';
-import CreateTodoDto from './dto/createtodo.dto';
+import CreateTodoDto from './dto/createTodo.dto';
 import ResponseTodoDto from './dto/responseTodo.dto';
 import UpdatePartialTodoDto from './dto/updatePartialTodo.dto';
 import UpdateTodoDto from './dto/updateTodo.dto';
